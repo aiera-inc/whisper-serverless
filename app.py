@@ -1,7 +1,7 @@
 import whisper
 from io import BytesIO
 
-from pydub import AuAudioSegment
+from pydub import AudioSegment
 AudioSegment.converter = which("ffmpeg")
 
 # Init is ran on server startup
