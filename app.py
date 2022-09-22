@@ -10,7 +10,7 @@ AudioSegment.converter = which("ffmpeg")
 def init():
     global model
 
-    model = whisper.load_model("tiny")
+    model = whisper.load_model("large")
 
 # Inference is ran for every server call
 # Reference your preloaded global model variable here.
