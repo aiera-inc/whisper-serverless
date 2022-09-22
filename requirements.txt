@@ -1,3 +1,5 @@
 sanic
 transformers
 accelerate
+pydub
+whisper @ git+https://github.com/openai/whisper.git@e90b8fa7e845ae184ed9aa0babcf3cde6f16719e
