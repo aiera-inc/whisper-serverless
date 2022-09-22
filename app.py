@@ -1,6 +1,7 @@
 import whisper
 from io import BytesIO
 
+from pydub.utils import which
 from pydub import AudioSegment
 AudioSegment.converter = which("ffmpeg")
 
